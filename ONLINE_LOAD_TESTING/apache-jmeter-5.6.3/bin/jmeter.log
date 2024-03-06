@@ -1,0 +1,945 @@
+2024-03-03 11:17:39,851 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: Version 5.6.3
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: java.version=1.8.0_391
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: os.name=Windows 10
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: os.arch=amd64
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: os.version=10.0
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: file.encoding=Cp1252
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: java.awt.headless=null
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: Max memory     =1858600960
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: Available Processors =8
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: Default Locale=English (United States)
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: JMeterHome=C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: user.dir  =C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3\bin
+2024-03-03 11:17:39,872 INFO o.a.j.JMeter: PWD       =C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3\bin
+2024-03-03 11:17:39,887 INFO o.a.j.JMeter: IP: 10.15.10.9 Name: LAPTOP-5A12AF8O FullName: LAPTOP-5A12AF8O
+2024-03-03 11:17:39,903 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-03-03 11:17:40,052 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-03-03 11:17:58,301 INFO o.a.j.g.a.t.TemplateManager: Reading templates from: C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3\bin\templates\templates.xml
+2024-03-03 11:18:12,514 INFO o.a.j.g.a.Load: Loading file: C:\Users\Lenovo\AppData\Local\Temp\Recording8949267574738340902.output
+2024-03-03 11:18:12,645 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-03-03 11:18:12,658 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-03-03 11:18:12,658 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-03-03 11:18:12,658 INFO o.a.j.s.SaveService: Loading file: C:\Users\Lenovo\AppData\Local\Temp\Recording8949267574738340902.output
+2024-03-03 11:18:12,680 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-03-03 11:18:13,526 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2024-03-03 11:18:13,526 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-03-03 11:18:13,552 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-03 11:18:13,552 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-03 11:18:13,552 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-03 11:18:13,552 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-03 11:18:13,552 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-03-03 11:18:13,552 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-03-03 11:18:13,700 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-03-03 11:18:13,700 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-03-03 11:18:13,700 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-03-03 11:18:13,700 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-03-03 11:26:47,508 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-03-03 11:26:47,508 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-03-03 11:26:47,914 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2024-03-03 11:26:47,914 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2024-03-03 11:26:47,914 INFO o.a.j.s.FileServer: Default base='C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3\bin'
+2024-03-03 11:26:47,914 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8888
+2024-03-03 11:26:47,929 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2024-03-03 11:26:47,967 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
+2024-03-03 11:26:49,048 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-5A12AF8O
+2024-03-03 11:26:49,064 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-03-03 11:26:49,354 INFO o.a.j.p.h.p.ProxyControl: [7836]  Creating entry dap-07-1.api.divviup.org in C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-03-03 11:26:51,401 INFO o.a.j.p.h.p.ProxyControl: [7839]  Creating entry dap.services.mozilla.com in C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-03-03 11:26:51,668 INFO o.a.j.p.h.p.Proxy: [7836]  KeyStore for SSL loaded OK and put host 'dap-07-1.api.divviup.org' in map with key (dap-07-1.api.divviup.org)
+2024-03-03 11:26:51,817 WARN o.a.j.p.h.p.Proxy: [7836]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Connection reset by peer: socket write error
+2024-03-03 11:26:51,818 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-03 11:26:51,838 WARN o.a.j.p.h.p.Proxy: [7852]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:51,855 WARN o.a.j.p.h.p.Proxy: [7855]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:26:51,873 WARN o.a.j.p.h.p.Proxy: [7856]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:51,892 WARN o.a.j.p.h.p.Proxy: [7857]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,309 INFO o.a.j.p.h.p.Proxy: [7839]  KeyStore for SSL loaded OK and put host 'dap.services.mozilla.com' in map with key (dap.services.mozilla.com)
+2024-03-03 11:26:53,420 WARN o.a.j.p.h.p.Proxy: [7843]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,423 WARN o.a.j.p.h.p.Proxy: [7841]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,424 WARN o.a.j.p.h.p.Proxy: [7839]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,424 WARN o.a.j.p.h.p.Proxy: [7840]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,424 WARN o.a.j.p.h.p.Proxy: [7837]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,491 WARN o.a.j.p.h.p.Proxy: [7838]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,493 WARN o.a.j.p.h.p.Proxy: [7847]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,494 WARN o.a.j.p.h.p.Proxy: [7846]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,494 WARN o.a.j.p.h.p.Proxy: [7845]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,494 WARN o.a.j.p.h.p.Proxy: [7844]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,510 WARN o.a.j.p.h.p.Proxy: [7842]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,512 WARN o.a.j.p.h.p.Proxy: [7862]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,512 WARN o.a.j.p.h.p.Proxy: [7866]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,512 WARN o.a.j.p.h.p.Proxy: [7864]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:53,513 WARN o.a.j.p.h.p.Proxy: [7865]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:26:59,199 INFO o.a.j.p.h.p.ProxyControl: Add sample -10 into controller 
+2024-03-03 11:27:00,067 INFO o.a.j.p.h.p.ProxyControl: Add sample -15 into controller 
+2024-03-03 11:27:02,974 INFO o.a.j.p.h.p.ProxyControl: Add sample -17 into controller 
+2024-03-03 11:27:17,194 INFO o.a.j.p.h.p.ProxyControl: Add sample -25 into controller 
+2024-03-03 11:27:29,889 INFO o.a.j.p.h.p.Proxy: [7924]  KeyStore for SSL loaded OK and put host 'push.services.mozilla.com' in map with key (push.services.mozilla.com)
+2024-03-03 11:27:29,930 WARN o.a.j.p.h.p.Proxy: [7924]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:27:37,086 INFO o.a.j.p.h.p.ProxyControl: Add sample -34 into controller 
+2024-03-03 11:28:09,349 INFO o.a.j.p.h.p.ProxyControl: Add sample -41 into controller 
+2024-03-03 11:31:43,412 INFO o.a.j.p.h.p.Proxy: [8378]  KeyStore for SSL loaded OK and put host 'spocs.mozilla.net' in map with key (spocs.mozilla.net)
+2024-03-03 11:31:43,439 WARN o.a.j.p.h.p.Proxy: [8378]  Problem with SSL certificate for url  for 'spocs.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:31:56,144 INFO o.a.j.s.FileServer: Set new base='C:\Users\Lenovo\OneDrive\Desktop'
+2024-03-03 11:34:53,048 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-03-03 11:34:53,048 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-03 11:34:53,048 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-03-03 11:34:53,070 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-03-03 11:34:53,070 INFO o.a.j.e.StandardJMeterEngine: Starting 40 threads for group Thread Group.
+2024-03-03 11:34:53,070 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-03-03 11:34:53,070 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=40 ramp-up=8 delayedStart=false
+2024-03-03 11:34:53,094 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-03-03 11:34:53,096 INFO o.a.j.s.FileServer: Stored: C:/Users/Lenovo/OneDrive/Desktop/jmeter.txt
+2024-03-03 11:34:53,111 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-03-03 11:34:53,112 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-03-03 11:34:53,227 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-03-03 11:34:53,228 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-03-03 11:34:53,287 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2024-03-03 11:34:53,422 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2024-03-03 11:34:53,423 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2024-03-03 11:34:53,494 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2024-03-03 11:34:53,608 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2024-03-03 11:34:53,608 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2024-03-03 11:34:53,678 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2024-03-03 11:34:53,856 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2024-03-03 11:34:53,856 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2024-03-03 11:34:53,878 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2024-03-03 11:34:53,985 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2024-03-03 11:34:53,985 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2024-03-03 11:34:54,078 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2024-03-03 11:34:54,189 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2024-03-03 11:34:54,189 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2024-03-03 11:34:54,278 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2024-03-03 11:34:54,479 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2024-03-03 11:34:54,617 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2024-03-03 11:34:54,617 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2024-03-03 11:34:54,632 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2024-03-03 11:34:54,632 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2024-03-03 11:34:54,671 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2024-03-03 11:34:54,817 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2024-03-03 11:34:54,817 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2024-03-03 11:34:54,872 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2024-03-03 11:34:54,943 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2024-03-03 11:34:54,943 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2024-03-03 11:34:55,071 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2024-03-03 11:34:55,259 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2024-03-03 11:34:55,259 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2024-03-03 11:34:55,271 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2024-03-03 11:34:55,411 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2024-03-03 11:34:55,412 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2024-03-03 11:34:55,471 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2024-03-03 11:34:55,671 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2024-03-03 11:34:55,760 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2024-03-03 11:34:55,760 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2024-03-03 11:34:55,829 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2024-03-03 11:34:55,829 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2024-03-03 11:34:55,871 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2024-03-03 11:34:56,032 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2024-03-03 11:34:56,032 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2024-03-03 11:34:56,071 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2024-03-03 11:34:56,220 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2024-03-03 11:34:56,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2024-03-03 11:34:56,273 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2024-03-03 11:34:56,402 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2024-03-03 11:34:56,403 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2024-03-03 11:34:56,474 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2024-03-03 11:34:56,672 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2024-03-03 11:34:56,672 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2024-03-03 11:34:56,673 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2024-03-03 11:34:56,817 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2024-03-03 11:34:56,817 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2024-03-03 11:34:56,872 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2024-03-03 11:34:57,072 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2024-03-03 11:34:57,162 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2024-03-03 11:34:57,162 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2024-03-03 11:34:57,276 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2024-03-03 11:34:57,369 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2024-03-03 11:34:57,369 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2024-03-03 11:34:57,476 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2024-03-03 11:34:57,572 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2024-03-03 11:34:57,572 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2024-03-03 11:34:57,672 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2024-03-03 11:34:57,672 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2024-03-03 11:34:57,679 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2024-03-03 11:34:57,810 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2024-03-03 11:34:57,812 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2024-03-03 11:34:57,873 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2024-03-03 11:34:57,986 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2024-03-03 11:34:57,986 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2024-03-03 11:34:58,087 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2024-03-03 11:34:58,187 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-26
+2024-03-03 11:34:58,188 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2024-03-03 11:34:58,278 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2024-03-03 11:34:58,414 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-27
+2024-03-03 11:34:58,414 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2024-03-03 11:34:58,478 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2024-03-03 11:34:58,635 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-28
+2024-03-03 11:34:58,636 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2024-03-03 11:34:58,680 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2024-03-03 11:34:58,762 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-29
+2024-03-03 11:34:58,763 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2024-03-03 11:34:58,870 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2024-03-03 11:34:58,972 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-30
+2024-03-03 11:34:58,972 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2024-03-03 11:34:59,072 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2024-03-03 11:34:59,271 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2024-03-03 11:34:59,471 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2024-03-03 11:34:59,671 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2024-03-03 11:34:59,872 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2024-03-03 11:35:00,057 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-31
+2024-03-03 11:35:00,057 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2024-03-03 11:35:00,072 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2024-03-03 11:35:00,124 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-33
+2024-03-03 11:35:00,124 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2024-03-03 11:35:00,157 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-36
+2024-03-03 11:35:00,157 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2024-03-03 11:35:00,271 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2024-03-03 11:35:00,472 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2024-03-03 11:35:00,671 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2024-03-03 11:35:00,868 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-38
+2024-03-03 11:35:00,868 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2024-03-03 11:35:00,872 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2024-03-03 11:35:00,990 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-40
+2024-03-03 11:35:00,990 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2024-03-03 11:35:01,006 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-35
+2024-03-03 11:35:01,006 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2024-03-03 11:35:01,475 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-37
+2024-03-03 11:35:01,475 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2024-03-03 11:35:01,791 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-39
+2024-03-03 11:35:01,791 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2024-03-03 11:35:01,991 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-34
+2024-03-03 11:35:01,991 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2024-03-03 11:35:02,192 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-32
+2024-03-03 11:35:02,192 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2024-03-03 11:35:02,192 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-03-03 11:35:02,192 INFO o.a.j.s.FileServer: Close: C:/Users/Lenovo/OneDrive/Desktop/jmeter.txt
+2024-03-03 11:35:02,192 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-03-03 11:36:43,419 INFO o.a.j.p.h.p.Proxy: [8896]  KeyStore for SSL loaded OK and put host 'contile.services.mozilla.com' in map with key (contile.services.mozilla.com)
+2024-03-03 11:36:43,469 WARN o.a.j.p.h.p.Proxy: [8896]  Problem with SSL certificate for url  for 'contile.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:43,473 WARN o.a.j.p.h.p.Proxy: [8897]  Problem with SSL certificate for url  for 'spocs.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:48,916 WARN o.a.j.p.h.p.Proxy: [8908]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:48,918 WARN o.a.j.p.h.p.Proxy: [8909]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:48,918 WARN o.a.j.p.h.p.Proxy: [8910]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:48,927 WARN o.a.j.p.h.p.Proxy: [8919]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:48,928 WARN o.a.j.p.h.p.Proxy: [8918]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:48,996 WARN o.a.j.p.h.p.Proxy: [8917]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:48,997 WARN o.a.j.p.h.p.Proxy: [8916]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:48,998 WARN o.a.j.p.h.p.Proxy: [8915]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,016 WARN o.a.j.p.h.p.Proxy: [8913]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,017 WARN o.a.j.p.h.p.Proxy: [8914]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,060 WARN o.a.j.p.h.p.Proxy: [8912]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,062 WARN o.a.j.p.h.p.Proxy: [8911]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,062 WARN o.a.j.p.h.p.Proxy: [8920]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,070 WARN o.a.j.p.h.p.Proxy: [8922]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,071 WARN o.a.j.p.h.p.Proxy: [8923]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,087 WARN o.a.j.p.h.p.Proxy: [8925]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,089 WARN o.a.j.p.h.p.Proxy: [8926]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,089 WARN o.a.j.p.h.p.Proxy: [8927]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,093 WARN o.a.j.p.h.p.Proxy: [8929]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:36:49,093 WARN o.a.j.p.h.p.Proxy: [8928]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:37:54,500 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-03-03 11:37:54,500 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-03 11:37:54,500 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-03-03 11:37:54,649 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-03-03 11:37:54,649 INFO o.a.j.e.StandardJMeterEngine: Starting 40 threads for group Thread Group.
+2024-03-03 11:37:54,649 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-03-03 11:37:54,649 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=40 ramp-up=8 delayedStart=false
+2024-03-03 11:37:54,649 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-03-03 11:37:54,649 INFO o.a.j.s.FileServer: Stored: C:/Users/Lenovo/OneDrive/Desktop/jmeter.txt
+2024-03-03 11:37:54,656 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-03-03 11:37:54,656 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-03-03 11:37:54,862 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2024-03-03 11:37:55,062 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2024-03-03 11:37:55,063 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-03-03 11:37:55,068 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-03-03 11:37:55,216 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2024-03-03 11:37:55,216 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2024-03-03 11:37:55,263 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2024-03-03 11:37:55,463 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2024-03-03 11:37:55,584 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2024-03-03 11:37:55,584 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2024-03-03 11:37:55,663 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2024-03-03 11:37:55,760 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2024-03-03 11:37:55,760 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2024-03-03 11:37:55,794 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2024-03-03 11:37:55,794 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2024-03-03 11:37:55,856 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2024-03-03 11:37:55,872 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2024-03-03 11:37:55,873 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2024-03-03 11:37:56,057 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2024-03-03 11:37:56,251 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2024-03-03 11:37:56,282 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2024-03-03 11:37:56,282 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2024-03-03 11:37:56,300 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2024-03-03 11:37:56,300 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2024-03-03 11:37:56,451 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2024-03-03 11:37:56,548 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2024-03-03 11:37:56,548 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2024-03-03 11:37:56,650 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2024-03-03 11:37:56,686 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2024-03-03 11:37:56,686 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2024-03-03 11:37:56,849 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2024-03-03 11:37:57,049 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2024-03-03 11:37:57,249 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2024-03-03 11:37:57,450 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2024-03-03 11:37:57,454 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2024-03-03 11:37:57,455 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2024-03-03 11:37:57,569 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2024-03-03 11:37:57,569 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2024-03-03 11:37:57,650 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2024-03-03 11:37:57,671 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2024-03-03 11:37:57,671 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2024-03-03 11:37:57,765 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2024-03-03 11:37:57,765 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2024-03-03 11:37:57,849 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2024-03-03 11:37:57,875 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2024-03-03 11:37:57,875 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2024-03-03 11:37:58,049 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2024-03-03 11:37:58,072 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2024-03-03 11:37:58,072 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2024-03-03 11:37:58,250 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2024-03-03 11:37:58,449 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2024-03-03 11:37:58,550 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2024-03-03 11:37:58,550 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2024-03-03 11:37:58,620 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2024-03-03 11:37:58,621 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2024-03-03 11:37:58,649 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2024-03-03 11:37:58,795 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2024-03-03 11:37:58,795 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2024-03-03 11:37:58,849 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2024-03-03 11:37:58,928 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2024-03-03 11:37:58,928 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2024-03-03 11:37:59,049 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2024-03-03 11:37:59,167 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2024-03-03 11:37:59,168 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2024-03-03 11:37:59,249 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2024-03-03 11:37:59,267 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2024-03-03 11:37:59,267 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2024-03-03 11:37:59,384 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2024-03-03 11:37:59,384 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2024-03-03 11:37:59,449 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2024-03-03 11:37:59,570 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2024-03-03 11:37:59,570 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2024-03-03 11:37:59,649 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2024-03-03 11:37:59,805 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2024-03-03 11:37:59,805 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2024-03-03 11:37:59,852 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2024-03-03 11:38:00,028 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-26
+2024-03-03 11:38:00,028 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2024-03-03 11:38:00,060 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2024-03-03 11:38:00,254 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2024-03-03 11:38:00,274 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-27
+2024-03-03 11:38:00,274 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2024-03-03 11:38:00,361 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-28
+2024-03-03 11:38:00,361 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2024-03-03 11:38:00,454 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2024-03-03 11:38:00,522 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-29
+2024-03-03 11:38:00,522 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2024-03-03 11:38:00,653 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2024-03-03 11:38:00,849 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2024-03-03 11:38:00,876 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-30
+2024-03-03 11:38:00,876 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2024-03-03 11:38:00,994 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-31
+2024-03-03 11:38:00,994 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2024-03-03 11:38:01,049 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2024-03-03 11:38:01,139 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-32
+2024-03-03 11:38:01,139 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2024-03-03 11:38:01,249 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2024-03-03 11:38:01,449 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2024-03-03 11:38:01,650 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2024-03-03 11:38:01,850 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2024-03-03 11:38:01,854 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-35
+2024-03-03 11:38:01,854 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2024-03-03 11:38:01,911 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-33
+2024-03-03 11:38:01,911 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-34
+2024-03-03 11:38:01,912 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2024-03-03 11:38:01,912 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2024-03-03 11:38:02,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2024-03-03 11:38:02,249 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2024-03-03 11:38:02,296 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-37
+2024-03-03 11:38:02,296 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2024-03-03 11:38:02,450 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2024-03-03 11:38:02,495 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-36
+2024-03-03 11:38:02,495 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2024-03-03 11:38:02,511 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-38
+2024-03-03 11:38:02,511 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2024-03-03 11:38:02,659 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-39
+2024-03-03 11:38:02,659 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2024-03-03 11:38:02,711 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-40
+2024-03-03 11:38:02,711 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2024-03-03 11:38:02,711 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-03-03 11:38:02,711 INFO o.a.j.s.FileServer: Close: C:/Users/Lenovo/OneDrive/Desktop/jmeter.txt
+2024-03-03 11:38:02,711 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-03-03 11:38:12,548 WARN o.a.j.p.h.p.Proxy: [9007]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:40:56,102 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-03-03 11:40:56,102 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-03 11:40:56,103 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-03-03 11:40:56,285 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-03-03 11:40:56,285 INFO o.a.j.e.StandardJMeterEngine: Starting 40 threads for group Thread Group.
+2024-03-03 11:40:56,285 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-03-03 11:40:56,285 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=40 ramp-up=8 delayedStart=false
+2024-03-03 11:40:56,285 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-03-03 11:40:56,285 INFO o.a.j.s.FileServer: Stored: C:/Users/Lenovo/OneDrive/Desktop/jmeter.txt
+2024-03-03 11:40:56,291 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-03-03 11:40:56,291 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-03-03 11:40:56,487 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2024-03-03 11:40:56,687 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2024-03-03 11:40:56,888 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2024-03-03 11:40:57,088 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2024-03-03 11:40:57,288 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2024-03-03 11:40:57,485 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2024-03-03 11:40:57,685 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2024-03-03 11:40:57,885 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2024-03-03 11:40:58,039 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-03-03 11:40:58,040 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-03-03 11:40:58,086 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2024-03-03 11:40:58,158 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2024-03-03 11:40:58,158 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2024-03-03 11:40:58,291 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2024-03-03 11:40:58,342 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2024-03-03 11:40:58,342 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2024-03-03 11:40:58,418 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2024-03-03 11:40:58,419 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2024-03-03 11:40:58,491 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2024-03-03 11:40:58,543 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2024-03-03 11:40:58,544 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2024-03-03 11:40:58,647 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2024-03-03 11:40:58,647 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2024-03-03 11:40:58,692 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2024-03-03 11:40:58,858 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2024-03-03 11:40:58,858 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2024-03-03 11:40:58,885 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2024-03-03 11:40:59,049 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2024-03-03 11:40:59,049 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2024-03-03 11:40:59,085 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2024-03-03 11:40:59,137 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2024-03-03 11:40:59,138 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2024-03-03 11:40:59,142 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2024-03-03 11:40:59,142 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2024-03-03 11:40:59,285 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2024-03-03 11:40:59,376 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2024-03-03 11:40:59,377 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2024-03-03 11:40:59,453 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2024-03-03 11:40:59,454 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2024-03-03 11:40:59,485 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2024-03-03 11:40:59,672 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2024-03-03 11:40:59,672 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2024-03-03 11:40:59,673 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2024-03-03 11:40:59,673 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2024-03-03 11:40:59,685 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2024-03-03 11:40:59,885 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2024-03-03 11:41:00,056 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2024-03-03 11:41:00,056 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2024-03-03 11:41:00,085 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2024-03-03 11:41:00,285 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2024-03-03 11:41:00,485 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2024-03-03 11:41:00,685 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2024-03-03 11:41:00,885 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2024-03-03 11:41:01,085 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2024-03-03 11:41:01,285 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2024-03-03 11:41:01,434 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2024-03-03 11:41:01,434 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2024-03-03 11:41:01,485 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2024-03-03 11:41:01,685 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2024-03-03 11:41:01,885 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2024-03-03 11:41:02,085 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2024-03-03 11:41:02,130 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2024-03-03 11:41:02,130 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2024-03-03 11:41:02,285 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2024-03-03 11:41:02,485 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2024-03-03 11:41:02,686 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2024-03-03 11:41:02,886 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2024-03-03 11:41:03,086 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2024-03-03 11:41:03,286 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2024-03-03 11:41:03,486 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2024-03-03 11:41:03,646 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2024-03-03 11:41:03,646 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2024-03-03 11:41:03,686 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2024-03-03 11:41:03,886 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2024-03-03 11:41:03,990 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2024-03-03 11:41:03,990 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2024-03-03 11:41:04,086 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2024-03-03 11:41:04,654 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2024-03-03 11:41:04,654 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2024-03-03 11:41:04,654 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2024-03-03 11:41:04,654 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2024-03-03 11:41:04,654 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2024-03-03 11:41:04,654 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2024-03-03 11:41:06,221 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-27
+2024-03-03 11:41:06,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2024-03-03 11:41:06,823 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-30
+2024-03-03 11:41:06,823 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2024-03-03 11:41:06,922 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-29
+2024-03-03 11:41:06,922 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2024-03-03 11:41:06,922 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-28
+2024-03-03 11:41:06,922 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2024-03-03 11:41:07,361 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-32
+2024-03-03 11:41:07,361 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2024-03-03 11:41:07,361 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2024-03-03 11:41:07,361 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2024-03-03 11:41:07,361 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-31
+2024-03-03 11:41:07,361 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2024-03-03 11:41:07,809 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-34
+2024-03-03 11:41:07,809 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2024-03-03 11:41:08,148 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-35
+2024-03-03 11:41:08,148 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2024-03-03 11:41:08,226 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-26
+2024-03-03 11:41:08,226 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2024-03-03 11:41:08,264 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-36
+2024-03-03 11:41:08,264 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2024-03-03 11:41:08,427 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2024-03-03 11:41:08,427 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-37
+2024-03-03 11:41:08,427 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2024-03-03 11:41:08,427 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2024-03-03 11:41:08,496 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-33
+2024-03-03 11:41:08,496 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2024-03-03 11:41:08,596 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-40
+2024-03-03 11:41:08,596 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2024-03-03 11:41:08,596 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2024-03-03 11:41:08,596 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2024-03-03 11:41:08,665 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-38
+2024-03-03 11:41:08,665 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2024-03-03 11:41:08,711 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-39
+2024-03-03 11:41:08,711 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2024-03-03 11:41:08,711 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-03-03 11:41:08,711 INFO o.a.j.s.FileServer: Close: C:/Users/Lenovo/OneDrive/Desktop/jmeter.txt
+2024-03-03 11:41:08,711 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-03-03 11:41:43,464 WARN o.a.j.p.h.p.Proxy: [9122]  Problem with SSL certificate for url  for 'spocs.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:43:13,321 INFO o.a.j.p.h.p.ProxyControl: Add sample -64 into controller 
+2024-03-03 11:43:13,531 INFO o.a.j.p.h.p.ProxyControl: Add sample -69 into controller 
+2024-03-03 11:43:15,368 INFO o.a.j.p.h.p.ProxyControl: Add sample -70 into controller 
+2024-03-03 11:43:17,425 INFO o.a.j.p.h.p.Proxy: [9179]  KeyStore for SSL loaded OK and put host 'safebrowsing.googleapis.com' in map with key (safebrowsing.googleapis.com)
+2024-03-03 11:43:17,441 WARN o.a.j.p.h.p.Proxy: [9179]  Problem with SSL certificate for url  for 'safebrowsing.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:43:49,111 INFO o.a.j.p.h.p.ProxyControl: Add sample -81 into controller 
+2024-03-03 11:44:13,527 INFO o.a.j.p.h.p.ProxyControl: Add sample -88 into controller 
+2024-03-03 11:45:12,482 INFO o.a.j.p.h.p.ProxyControl: [9332]  Creating entry shavar.services.mozilla.com in C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-03-03 11:45:14,235 INFO o.a.j.p.h.p.Proxy: [9332]  KeyStore for SSL loaded OK and put host 'shavar.services.mozilla.com' in map with key (shavar.services.mozilla.com)
+2024-03-03 11:45:14,254 WARN o.a.j.p.h.p.Proxy: [9332]  Problem with SSL certificate for url  for 'shavar.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,553 INFO o.a.j.p.h.p.Proxy: [9354]  KeyStore for SSL loaded OK and put host 'incoming.telemetry.mozilla.org' in map with key (incoming.telemetry.mozilla.org)
+2024-03-03 11:45:21,559 WARN o.a.j.p.h.p.Proxy: [9342]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,559 WARN o.a.j.p.h.p.Proxy: [9343]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,562 WARN o.a.j.p.h.p.Proxy: [9344]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,563 WARN o.a.j.p.h.p.Proxy: [9345]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,564 WARN o.a.j.p.h.p.Proxy: [9348]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,602 WARN o.a.j.p.h.p.Proxy: [9347]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,603 WARN o.a.j.p.h.p.Proxy: [9346]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,605 WARN o.a.j.p.h.p.Proxy: [9352]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,609 WARN o.a.j.p.h.p.Proxy: [9350]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,610 WARN o.a.j.p.h.p.Proxy: [9351]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,634 WARN o.a.j.p.h.p.Proxy: [9349]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,635 WARN o.a.j.p.h.p.Proxy: [9353]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,637 WARN o.a.j.p.h.p.Proxy: [9354]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,640 WARN o.a.j.p.h.p.Proxy: [9357]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,640 WARN o.a.j.p.h.p.Proxy: [9355]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,653 WARN o.a.j.p.h.p.Proxy: [9358]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,654 WARN o.a.j.p.h.p.Proxy: [9359]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,655 WARN o.a.j.p.h.p.Proxy: [9361]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,656 WARN o.a.j.p.h.p.Proxy: [9362]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,656 WARN o.a.j.p.h.p.Proxy: [9363]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,659 WARN o.a.j.p.h.p.Proxy: [9364]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:21,660 WARN o.a.j.p.h.p.Proxy: [9365]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:25,862 WARN o.a.j.p.h.p.Proxy: [9379]  Problem with SSL certificate for url  for 'spocs.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:25,862 WARN o.a.j.p.h.p.Proxy: [9378]  Problem with SSL certificate for url  for 'contile.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:25,898 INFO o.a.j.p.h.p.ProxyControl: [9380]  Creating entry content-signature-2.cdn.mozilla.net in C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-03-03 11:45:26,331 WARN o.a.j.p.h.p.Proxy: [9391]  Problem with SSL certificate for url  for 'safebrowsing.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:26,335 WARN o.a.j.p.h.p.Proxy: [9392]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:26,355 WARN o.a.j.p.h.p.Proxy: [9394]  Problem with SSL certificate for url  for 'shavar.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:26,368 INFO o.a.j.p.h.p.Proxy: [9396]  KeyStore for SSL loaded OK and put host 'profile.accounts.firefox.com' in map with key (profile.accounts.firefox.com)
+2024-03-03 11:45:26,390 WARN o.a.j.p.h.p.Proxy: [9396]  Problem with SSL certificate for url  for 'profile.accounts.firefox.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:26,392 WARN o.a.j.p.h.p.Proxy: [9397]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:26,409 INFO o.a.j.p.h.p.Proxy: [9400]  KeyStore for SSL loaded OK and put host 'firefox.settings.services.mozilla.com' in map with key (firefox.settings.services.mozilla.com)
+2024-03-03 11:45:26,419 WARN o.a.j.p.h.p.Proxy: [9399]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:26,422 WARN o.a.j.p.h.p.Proxy: [9400]  Problem with SSL certificate for url  for 'firefox.settings.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:26,441 INFO o.a.j.p.h.p.Proxy: [9401]  KeyStore for SSL loaded OK and put host 'token.services.mozilla.com' in map with key (token.services.mozilla.com)
+2024-03-03 11:45:26,456 WARN o.a.j.p.h.p.Proxy: [9401]  Problem with SSL certificate for url  for 'token.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:26,474 WARN o.a.j.p.h.p.Proxy: [9402]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:26,495 WARN o.a.j.p.h.p.Proxy: [9403]  Problem with SSL certificate for url  for 'profile.accounts.firefox.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: unknown_ca
+2024-03-03 11:45:26,574 WARN o.a.j.p.h.p.Proxy: [9405]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:26,589 ERROR o.a.j.p.h.p.Proxy: 
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_391]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_391]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_391]
+	at java.io.BufferedOutputStream.write(Unknown Source) ~[?:1.8.0_391]
+	at java.io.FilterOutputStream.write(Unknown Source) ~[?:1.8.0_391]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeToClient(Proxy.java:515) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:258) [ApacheJMeter_http.jar:5.6.3]
+2024-03-03 11:45:26,599 ERROR o.a.j.p.h.p.Proxy: [9385]  Exception when processing sample
+java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[?:1.8.0_391]
+	at java.net.SocketOutputStream.socketWrite(Unknown Source) ~[?:1.8.0_391]
+	at java.net.SocketOutputStream.write(Unknown Source) ~[?:1.8.0_391]
+	at java.io.BufferedOutputStream.write(Unknown Source) ~[?:1.8.0_391]
+	at java.io.FilterOutputStream.write(Unknown Source) ~[?:1.8.0_391]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeToClient(Proxy.java:515) ~[ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:258) [ApacheJMeter_http.jar:5.6.3]
+2024-03-03 11:45:26,599 WARN o.a.j.p.h.p.Proxy: [9385]  Exception while writing error
+java.net.SocketException: Socket is closed
+	at java.net.Socket.getOutputStream(Unknown Source) ~[?:1.8.0_391]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:590) [ApacheJMeter_http.jar:5.6.3]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:275) [ApacheJMeter_http.jar:5.6.3]
+2024-03-03 11:45:26,660 WARN o.a.j.p.h.p.Proxy: [9406]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:26,677 WARN o.a.j.p.h.p.Proxy: [9407]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:26,717 INFO o.a.j.p.h.p.ProxyControl: Add sample -100 into controller 
+2024-03-03 11:45:28,272 WARN o.a.j.p.h.p.Proxy: [9412]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:28,288 WARN o.a.j.p.h.p.Proxy: [9414]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:28,304 WARN o.a.j.p.h.p.Proxy: [9416]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:28,331 INFO o.a.j.p.h.p.ProxyControl: [9404]  Creating entry api.accounts.firefox.com in C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-03-03 11:45:28,331 INFO o.a.j.p.h.p.Proxy: [9380]  KeyStore for SSL loaded OK and put host 'content-signature-2.cdn.mozilla.net' in map with key (content-signature-2.cdn.mozilla.net)
+2024-03-03 11:45:28,331 WARN o.a.j.p.h.p.Proxy: [9380]  Problem with SSL certificate for url  for 'content-signature-2.cdn.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: recv failed
+2024-03-03 11:45:29,307 WARN o.a.j.p.h.p.Proxy: [9421]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:29,323 WARN o.a.j.p.h.p.Proxy: [9423]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:29,332 WARN o.a.j.p.h.p.Proxy: [9425]  Problem with SSL certificate for url  for 'incoming.telemetry.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:30,440 INFO o.a.j.p.h.p.ProxyControl: [9398]  Creating entry aus5.mozilla.org in C:\Users\Lenovo\OneDrive\Desktop\Jmeter\apache-jmeter-5.6.3\bin\proxyserver.jks
+2024-03-03 11:45:30,440 INFO o.a.j.p.h.p.Proxy: [9404]  KeyStore for SSL loaded OK and put host 'api.accounts.firefox.com' in map with key (api.accounts.firefox.com)
+2024-03-03 11:45:30,464 WARN o.a.j.p.h.p.Proxy: [9404]  Problem with SSL certificate for url  for 'api.accounts.firefox.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:31,465 WARN o.a.j.p.h.p.Proxy: [9437]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:32,539 INFO o.a.j.p.h.p.Proxy: [9398]  KeyStore for SSL loaded OK and put host 'aus5.mozilla.org' in map with key (aus5.mozilla.org)
+2024-03-03 11:45:32,560 WARN o.a.j.p.h.p.Proxy: [9387]  Problem with SSL certificate for url  for 'api.accounts.firefox.com'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:32,565 WARN o.a.j.p.h.p.Proxy: [9398]  Problem with SSL certificate for url  for 'aus5.mozilla.org'? Ensure browser is set to accept the JMeter proxy cert: Software caused connection abort: socket write error
+2024-03-03 11:45:41,643 WARN o.a.j.p.h.p.Proxy: [9462]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:46:01,690 WARN o.a.j.p.h.p.Proxy: [9558]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:46:41,738 WARN o.a.j.p.h.p.Proxy: [9578]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:48:01,790 WARN o.a.j.p.h.p.Proxy: [9602]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:48:14,074 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-03-03 11:48:14,074 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-03 11:48:14,074 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-03-03 11:48:14,215 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-03-03 11:48:14,215 INFO o.a.j.e.StandardJMeterEngine: Starting 40 threads for group Thread Group.
+2024-03-03 11:48:14,215 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-03-03 11:48:14,215 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=40 ramp-up=8 delayedStart=false
+2024-03-03 11:48:14,215 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-03-03 11:48:14,215 INFO o.a.j.s.FileServer: Stored: C:/Users/Lenovo/OneDrive/Desktop/jmeter.txt
+2024-03-03 11:48:14,227 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-03-03 11:48:14,227 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-03-03 11:48:14,415 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-03-03 11:48:14,415 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-03-03 11:48:14,430 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2024-03-03 11:48:14,623 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2024-03-03 11:48:14,822 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2024-03-03 11:48:14,954 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2024-03-03 11:48:14,954 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2024-03-03 11:48:14,957 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2024-03-03 11:48:14,957 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2024-03-03 11:48:15,020 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2024-03-03 11:48:15,024 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2024-03-03 11:48:15,024 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2024-03-03 11:48:15,156 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2024-03-03 11:48:15,156 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2024-03-03 11:48:15,219 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2024-03-03 11:48:15,423 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2024-03-03 11:48:15,423 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2024-03-03 11:48:15,424 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2024-03-03 11:48:15,613 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2024-03-03 11:48:15,613 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2024-03-03 11:48:15,624 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2024-03-03 11:48:15,768 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2024-03-03 11:48:15,769 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2024-03-03 11:48:15,815 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2024-03-03 11:48:15,989 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2024-03-03 11:48:15,989 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2024-03-03 11:48:16,015 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2024-03-03 11:48:16,173 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2024-03-03 11:48:16,173 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2024-03-03 11:48:16,216 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2024-03-03 11:48:16,411 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2024-03-03 11:48:16,411 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2024-03-03 11:48:16,416 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2024-03-03 11:48:16,576 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2024-03-03 11:48:16,576 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2024-03-03 11:48:16,616 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2024-03-03 11:48:16,817 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2024-03-03 11:48:16,817 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2024-03-03 11:48:16,820 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2024-03-03 11:48:16,967 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2024-03-03 11:48:16,967 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2024-03-03 11:48:17,019 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2024-03-03 11:48:17,198 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2024-03-03 11:48:17,199 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2024-03-03 11:48:17,216 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2024-03-03 11:48:17,350 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2024-03-03 11:48:17,351 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2024-03-03 11:48:17,416 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2024-03-03 11:48:17,594 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2024-03-03 11:48:17,594 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2024-03-03 11:48:17,615 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2024-03-03 11:48:17,815 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2024-03-03 11:48:17,972 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2024-03-03 11:48:17,972 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2024-03-03 11:48:18,016 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2024-03-03 11:48:18,088 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2024-03-03 11:48:18,088 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2024-03-03 11:48:18,215 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2024-03-03 11:48:18,308 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2024-03-03 11:48:18,308 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2024-03-03 11:48:18,417 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2024-03-03 11:48:18,465 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2024-03-03 11:48:18,465 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2024-03-03 11:48:18,616 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2024-03-03 11:48:18,654 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2024-03-03 11:48:18,654 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2024-03-03 11:48:18,770 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2024-03-03 11:48:18,770 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2024-03-03 11:48:18,816 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2024-03-03 11:48:19,002 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2024-03-03 11:48:19,003 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2024-03-03 11:48:19,016 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2024-03-03 11:48:19,166 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2024-03-03 11:48:19,166 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2024-03-03 11:48:19,216 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2024-03-03 11:48:19,401 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-26
+2024-03-03 11:48:19,401 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2024-03-03 11:48:19,415 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2024-03-03 11:48:19,615 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2024-03-03 11:48:19,695 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-27
+2024-03-03 11:48:19,695 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2024-03-03 11:48:19,761 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-28
+2024-03-03 11:48:19,761 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2024-03-03 11:48:19,816 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2024-03-03 11:48:20,015 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2024-03-03 11:48:20,019 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-29
+2024-03-03 11:48:20,019 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2024-03-03 11:48:20,171 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-30
+2024-03-03 11:48:20,171 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2024-03-03 11:48:20,215 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2024-03-03 11:48:20,431 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2024-03-03 11:48:20,565 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-31
+2024-03-03 11:48:20,565 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2024-03-03 11:48:20,622 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2024-03-03 11:48:20,705 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-32
+2024-03-03 11:48:20,705 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2024-03-03 11:48:20,828 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2024-03-03 11:48:21,012 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-33
+2024-03-03 11:48:21,012 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2024-03-03 11:48:21,028 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2024-03-03 11:48:21,229 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2024-03-03 11:48:21,416 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2024-03-03 11:48:21,417 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-36
+2024-03-03 11:48:21,417 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2024-03-03 11:48:21,615 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2024-03-03 11:48:21,629 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-35
+2024-03-03 11:48:21,629 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2024-03-03 11:48:21,816 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2024-03-03 11:48:21,839 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-34
+2024-03-03 11:48:21,839 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2024-03-03 11:48:22,016 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2024-03-03 11:48:22,039 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-38
+2024-03-03 11:48:22,039 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-37
+2024-03-03 11:48:22,039 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2024-03-03 11:48:22,039 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2024-03-03 11:48:22,115 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-39
+2024-03-03 11:48:22,115 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2024-03-03 11:48:22,284 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-40
+2024-03-03 11:48:22,284 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2024-03-03 11:48:22,284 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-03-03 11:48:22,284 INFO o.a.j.s.FileServer: Close: C:/Users/Lenovo/OneDrive/Desktop/jmeter.txt
+2024-03-03 11:48:22,284 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-03-03 11:50:26,521 WARN o.a.j.p.h.p.Proxy: [9765]  Problem with SSL certificate for url  for 'contile.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:50:26,521 WARN o.a.j.p.h.p.Proxy: [9766]  Problem with SSL certificate for url  for 'spocs.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:50:42,058 WARN o.a.j.p.h.p.Proxy: [9777]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:53:58,618 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-03-03 11:53:58,618 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-03 11:53:58,618 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-03-03 11:53:58,803 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-03-03 11:53:58,803 INFO o.a.j.e.StandardJMeterEngine: Starting 40 threads for group Thread Group.
+2024-03-03 11:53:58,803 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-03-03 11:53:58,803 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=40 ramp-up=8 delayedStart=false
+2024-03-03 11:53:58,803 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-03-03 11:53:58,803 INFO o.a.j.s.FileServer: Stored: C:/Users/Lenovo/OneDrive/Desktop/jmeter.txt
+2024-03-03 11:53:58,821 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-03-03 11:53:58,821 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-03-03 11:53:59,015 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2024-03-03 11:53:59,206 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2024-03-03 11:53:59,404 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2024-03-03 11:53:59,605 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2024-03-03 11:53:59,807 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2024-03-03 11:54:00,003 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2024-03-03 11:54:00,071 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2024-03-03 11:54:00,071 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2024-03-03 11:54:00,203 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2024-03-03 11:54:00,250 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-03-03 11:54:00,250 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-03-03 11:54:00,403 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2024-03-03 11:54:00,604 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2024-03-03 11:54:00,803 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2024-03-03 11:54:01,003 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2024-03-03 11:54:01,203 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2024-03-03 11:54:01,403 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2024-03-03 11:54:01,603 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2024-03-03 11:54:01,803 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2024-03-03 11:54:02,003 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2024-03-03 11:54:02,175 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2024-03-03 11:54:02,175 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2024-03-03 11:54:02,203 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2024-03-03 11:54:02,403 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2024-03-03 11:54:02,603 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2024-03-03 11:54:02,803 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2024-03-03 11:54:03,004 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2024-03-03 11:54:03,204 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2024-03-03 11:54:03,404 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2024-03-03 11:54:03,618 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2024-03-03 11:54:03,729 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2024-03-03 11:54:03,729 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2024-03-03 11:54:03,818 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2024-03-03 11:54:04,005 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2024-03-03 11:54:04,109 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2024-03-03 11:54:04,109 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2024-03-03 11:54:04,205 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2024-03-03 11:54:04,405 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2024-03-03 11:54:04,539 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2024-03-03 11:54:04,539 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2024-03-03 11:54:04,605 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2024-03-03 11:54:04,805 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2024-03-03 11:54:05,003 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2024-03-03 11:54:05,204 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2024-03-03 11:54:05,404 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2024-03-03 11:54:05,545 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2024-03-03 11:54:05,545 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2024-03-03 11:54:05,605 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2024-03-03 11:54:05,613 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2024-03-03 11:54:05,613 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2024-03-03 11:54:05,804 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2024-03-03 11:54:06,004 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2024-03-03 11:54:06,203 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2024-03-03 11:54:06,403 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2024-03-03 11:54:06,580 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2024-03-03 11:54:06,580 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2024-03-03 11:54:06,604 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2024-03-03 11:54:08,126 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2024-03-03 11:54:08,126 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2024-03-03 11:54:10,562 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-28
+2024-03-03 11:54:10,562 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2024-03-03 11:54:10,562 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2024-03-03 11:54:10,562 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2024-03-03 11:54:10,919 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2024-03-03 11:54:10,919 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2024-03-03 11:54:11,011 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-26
+2024-03-03 11:54:11,011 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2024-03-03 11:54:11,782 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2024-03-03 11:54:11,782 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2024-03-03 11:54:11,813 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2024-03-03 11:54:11,813 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2024-03-03 11:54:11,829 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-29
+2024-03-03 11:54:11,829 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2024-03-03 11:54:12,014 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2024-03-03 11:54:12,014 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2024-03-03 11:54:12,030 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2024-03-03 11:54:12,030 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2024-03-03 11:54:13,034 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2024-03-03 11:54:13,034 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2024-03-03 11:54:13,049 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-32
+2024-03-03 11:54:13,049 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2024-03-03 11:54:13,851 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2024-03-03 11:54:13,851 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2024-03-03 11:54:13,851 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2024-03-03 11:54:13,851 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2024-03-03 11:54:14,073 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2024-03-03 11:54:14,073 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2024-03-03 11:54:14,374 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2024-03-03 11:54:14,374 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2024-03-03 11:54:14,606 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2024-03-03 11:54:14,606 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2024-03-03 11:54:14,674 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-36
+2024-03-03 11:54:14,686 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2024-03-03 11:54:14,686 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-27
+2024-03-03 11:54:14,686 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2024-03-03 11:54:14,790 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-38
+2024-03-03 11:54:14,790 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2024-03-03 11:54:15,424 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-31
+2024-03-03 11:54:15,424 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2024-03-03 11:54:15,841 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-39
+2024-03-03 11:54:15,841 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2024-03-03 11:54:16,543 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-30
+2024-03-03 11:54:16,543 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2024-03-03 11:54:16,713 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-35
+2024-03-03 11:54:16,713 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2024-03-03 11:54:16,843 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2024-03-03 11:54:16,843 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2024-03-03 11:54:17,297 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-37
+2024-03-03 11:54:17,297 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-33
+2024-03-03 11:54:17,297 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2024-03-03 11:54:17,297 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-34
+2024-03-03 11:54:17,307 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2024-03-03 11:54:17,307 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2024-03-03 11:54:17,339 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-40
+2024-03-03 11:54:17,339 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2024-03-03 11:54:18,469 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2024-03-03 11:54:18,469 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2024-03-03 11:54:18,986 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2024-03-03 11:54:18,986 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2024-03-03 11:54:18,986 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-03-03 11:54:18,986 INFO o.a.j.s.FileServer: Close: C:/Users/Lenovo/OneDrive/Desktop/jmeter.txt
+2024-03-03 11:54:18,986 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-03-03 11:55:01,763 WARN o.a.j.p.h.p.Proxy: [9910]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,767 WARN o.a.j.p.h.p.Proxy: [9911]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,774 WARN o.a.j.p.h.p.Proxy: [9912]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,776 WARN o.a.j.p.h.p.Proxy: [9921]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,777 WARN o.a.j.p.h.p.Proxy: [9920]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,824 WARN o.a.j.p.h.p.Proxy: [9919]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,856 WARN o.a.j.p.h.p.Proxy: [9918]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,862 WARN o.a.j.p.h.p.Proxy: [9917]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,865 WARN o.a.j.p.h.p.Proxy: [9916]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,865 WARN o.a.j.p.h.p.Proxy: [9915]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,912 WARN o.a.j.p.h.p.Proxy: [9914]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,916 WARN o.a.j.p.h.p.Proxy: [9913]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,918 WARN o.a.j.p.h.p.Proxy: [9922]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,921 WARN o.a.j.p.h.p.Proxy: [9924]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,922 WARN o.a.j.p.h.p.Proxy: [9925]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,933 WARN o.a.j.p.h.p.Proxy: [9926]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,937 WARN o.a.j.p.h.p.Proxy: [9927]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,940 WARN o.a.j.p.h.p.Proxy: [9928]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,942 WARN o.a.j.p.h.p.Proxy: [9929]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:01,943 WARN o.a.j.p.h.p.Proxy: [9931]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:55:31,651 WARN o.a.j.p.h.p.Proxy: [9946]  Problem with SSL certificate for url  for 'spocs.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 11:56:02,100 WARN o.a.j.p.h.p.Proxy: [9996]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:00:31,660 WARN o.a.j.p.h.p.Proxy: [10252]  Problem with SSL certificate for url  for 'spocs.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:20,678 WARN o.a.j.p.h.p.Proxy: [10768]  Problem with SSL certificate for url  for 'shavar.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,746 WARN o.a.j.p.h.p.Proxy: [10844]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,755 WARN o.a.j.p.h.p.Proxy: [10845]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,760 WARN o.a.j.p.h.p.Proxy: [10846]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,764 WARN o.a.j.p.h.p.Proxy: [10855]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,765 WARN o.a.j.p.h.p.Proxy: [10854]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,819 WARN o.a.j.p.h.p.Proxy: [10853]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,836 WARN o.a.j.p.h.p.Proxy: [10852]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,845 WARN o.a.j.p.h.p.Proxy: [10851]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,848 WARN o.a.j.p.h.p.Proxy: [10850]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,849 WARN o.a.j.p.h.p.Proxy: [10849]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,891 WARN o.a.j.p.h.p.Proxy: [10848]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,895 WARN o.a.j.p.h.p.Proxy: [10847]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,899 WARN o.a.j.p.h.p.Proxy: [10856]  Problem with SSL certificate for url  for 'contile.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,903 WARN o.a.j.p.h.p.Proxy: [10857]  Problem with SSL certificate for url  for 'spocs.mozilla.net'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,904 WARN o.a.j.p.h.p.Proxy: [10858]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,920 WARN o.a.j.p.h.p.Proxy: [10860]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,927 WARN o.a.j.p.h.p.Proxy: [10861]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,930 WARN o.a.j.p.h.p.Proxy: [10863]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,934 WARN o.a.j.p.h.p.Proxy: [10864]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,934 WARN o.a.j.p.h.p.Proxy: [10865]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,943 WARN o.a.j.p.h.p.Proxy: [10866]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:05:32,945 WARN o.a.j.p.h.p.Proxy: [10867]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:06:51,344 WARN o.a.j.p.h.p.Proxy: [10962]  Problem with SSL certificate for url  for 'push.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:08:31,759 WARN o.a.j.p.h.p.Proxy: [11023]  Problem with SSL certificate for url  for 'safebrowsing.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,751 WARN o.a.j.p.h.p.Proxy: [11414]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,753 WARN o.a.j.p.h.p.Proxy: [11415]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,761 WARN o.a.j.p.h.p.Proxy: [11416]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,767 WARN o.a.j.p.h.p.Proxy: [11425]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,768 WARN o.a.j.p.h.p.Proxy: [11424]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,856 WARN o.a.j.p.h.p.Proxy: [11423]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,860 WARN o.a.j.p.h.p.Proxy: [11422]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,880 WARN o.a.j.p.h.p.Proxy: [11421]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,885 WARN o.a.j.p.h.p.Proxy: [11420]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,885 WARN o.a.j.p.h.p.Proxy: [11419]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,953 WARN o.a.j.p.h.p.Proxy: [11418]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,955 WARN o.a.j.p.h.p.Proxy: [11417]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,961 WARN o.a.j.p.h.p.Proxy: [11426]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,965 WARN o.a.j.p.h.p.Proxy: [11428]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,966 WARN o.a.j.p.h.p.Proxy: [11429]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,986 WARN o.a.j.p.h.p.Proxy: [11430]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,988 WARN o.a.j.p.h.p.Proxy: [11431]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,991 WARN o.a.j.p.h.p.Proxy: [11433]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,993 WARN o.a.j.p.h.p.Proxy: [11434]  Problem with SSL certificate for url  for 'dap-07-1.api.divviup.org'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:15:32,994 WARN o.a.j.p.h.p.Proxy: [11435]  Problem with SSL certificate for url  for 'dap.services.mozilla.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: bad_certificate
+2024-03-03 12:22:31,545 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
